@@ -2,5 +2,6 @@
 
 for i in {1..10}
 do
-    echo "Hello World $i"
+    echo "Hello World"
+    echo $((i + (i-1)))
 done
